@@ -1,0 +1,7 @@
+interface:
+  display_name: "Design Dialogue"
+  short_description: "Interrogate ideas, assumptions, scope, and research branches."
+  default_prompt: "Help me examine this idea through a structured design dialogue."
+
+policy:
+  allow_implicit_invocation: false
