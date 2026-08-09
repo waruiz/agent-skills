@@ -1,0 +1,9 @@
+interface:
+  display_name: "Project Decision Facilitator"
+  short_description: "Turn a fresh project idea into explicit, connected decisions."
+  brand_color: "#2A7F7F"
+  default_prompt: "Use $project-decision-facilitator to lead me through the important decisions for this project idea: "
+
+policy:
+  allow_implicit_invocation: true
+
