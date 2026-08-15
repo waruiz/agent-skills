@@ -1,0 +1,19 @@
+interface:
+  display_name: Project Context Brief
+  short_description: Create and selectively refresh agent context
+  default_prompt: Use $maintain-project-context to create or refresh a compact project
+    context brief from the canonical design sources and work tracker.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+dependencies:
+  tools:
+  - type: mcp
+    value: linear
+    description: Read project plans, milestones, decisions, and tickets from Linear
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
